@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "deployer-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@storybook/blocks": "^7.5.1",
     "@storybook/react": "^7.5.1",
     "@storybook/react-vite": "^7.5.1",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.2.2",
     "@vitejs/plugin-react": "^4.1.0",
     "prop-types": "^15.8.1",
@@ -32,6 +34,7 @@
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^7.5.3",
     "@storybook/addon-docs": "^7.5.3",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
